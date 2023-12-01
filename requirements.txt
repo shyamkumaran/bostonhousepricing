@@ -1,2 +1,6 @@
-setuptools==68.0.0
-wheel==0.41.2
+Flask
+pandas
+sklearn
+numpy
+matplotlib
+gunicorn
