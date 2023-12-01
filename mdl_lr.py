@@ -35,6 +35,6 @@ regr = linear_model.LinearRegression()
 predicted_value = 700
 result = linear_model_main(np.array(X), np.array(Y), predicted_value)
 #pickle.dump(regr,"housemodel.mks")
-outfile = "housemodel.mks"
+outfile = "house_pricing.pkl"
 with open(outfile, 'wb') as pickle_file:
     pickle.dump(regr, pickle_file)
